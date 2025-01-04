@@ -345,13 +345,16 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a href="Home.html"><span>मुख्य संकेतस्थळ </span> </a>
+                        <a href="index.html"><span>मुख्य संकेतस्थळ </span> </a>
                     </li>
                     
                     <li>
-                        
-                        <a id="ContentPlaceHolder1_SabhaPhotoLinkBtn" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$SabhaPhotoLinkBtn&#39;,&#39;&#39;)">सभा (फोटो )</a>
+                        <a id="ContentPlaceHolder1_SabhaPhotoLinkBtn" 
+                           href="source/GeneralPages/PhotoGallery.html">
+                            सभा (फोटो )
+                        </a>
                     </li>
+                    
 
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -1187,9 +1190,13 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
 
 
             <div class="col-sm-12" align="center">
-                
-                <input type="submit" name="ctl00$ContentPlaceHolder1$btnPhotoGallery" value="अजून काही छायाचित्र" id="ContentPlaceHolder1_btnPhotoGallery" class="btn mb-2" style="background-color: #bed3f4  !important;" />
+                <a href="source/GeneralPages/PhotoGallery.html" 
+                   class="btn mb-2" 
+                   style="background-color: #bed3f4 !important; text-decoration: none;">
+                    अजून काही छायाचित्र
+                </a>
             </div>
+            
         </div>
     </section>
 

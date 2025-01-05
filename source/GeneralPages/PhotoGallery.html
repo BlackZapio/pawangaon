@@ -208,11 +208,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
                     <li>
                         <a href="../../index.html"><span>मुख्य पृष्ठ</span> </a>
                     </li>
-                    <li>
-                        <a>
-                            <input type="submit" name="ctl00$ContentPlaceHolder1$lblMainpg" value="मुख्य पृष्ठ ग्रामपंचायत" id="ContentPlaceHolder1_lblMainpg" style="background-color: white; color: black; border: 0" />
-                        </a>
-                    </li>
+
                     
                     <li>
                         <a href="Events.html"><span>सभा (फोटो )</span></a>
@@ -250,6 +246,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
                         
                         <li data-filter="*" class="filter-active">All</li>
                         <li data-filter=".GP">ग्रामपंचायत फोटो</li>
+                        <li data-filter=".GPP">ग्राम पंचायत प्रमाणपत्र</li>
                         <li data-filter=".SevaShulk1">आपले सरकार सेवा केंद्र बॅनर</li>
                         <li data-filter=".SevaShulk2">सेवा शुल्क (Rate Chart)</li>
                         <li data-filter=".gramsabha">ग्रामसभा</li>
@@ -259,6 +256,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
                         <li data-filter=".balsabha">बाल सभा </li>
                         <li data-filter=".visheshsabha">विशेष सभा </li>
                         <li data-filter=".aak">आकस्मिक सभा</li>
+                        <li data-filter=".building">सावािमनक इमारती </li>
                         <li data-filter=".other">इतर कार्यक्रम </li>
 
                         <li data-filter=".vikaskaame1">विकास कामे - १</li>
@@ -269,12 +267,17 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
             </div>
             <div class="row portfolio-container aos-init" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 451.666px;">
                  <div id="ContentPlaceHolder1_div_GPPhoto" class="col-lg-3 portfolio-item GP" style="position: absolute; left: 0px; top: 0px;">
-                    <a href="../../mh.gov2egov.com/PANINDIADOCS/GPProfile/GPProfile_180205_0.jpg" id="ContentPlaceHolder1_a_GPPhoto" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link">
-                        <img id="ContentPlaceHolder1_img_GPPhoto" class="img-fluid" alt="" src="../../mh.gov2egov.com/PANINDIADOCS/GPProfile/GPProfile_180205_0.jpg" style="height:150px;width:300px;" />
-
+                    <a href="../../mh.gov2egov.com/PANINDIADOCS/GPProfile/GPProfile_180205_01.jpg" id="ContentPlaceHolder1_a_GPPhoto" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link">
+                        <img id="ContentPlaceHolder1_img_GPPhoto" class="img-fluid" alt="" src="../../mh.gov2egov.com/PANINDIADOCS/GPProfile/GPProfile_180205_01.jpg" style="height:150px;width:300px;" />
                     </a>
-
                 </div>
+
+                <div id="ContentPlaceHolder1_div_GPP" class="col-lg-3 portfolio-item GPP" style="position: absolute; left: 285px; top: 0px;">
+                    <a href="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/GPP_1.jpeg" id="ContentPlaceHolder1_a_GPP" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link">
+                        <img id="ContentPlaceHolder1_img_GPP" title="sarvajanik shouchalay bandhkam" class="img-fluid" alt="" src="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/GPP_1.jpeg" style="height:150px;width:300px;" />
+                    </a>
+                </div>
+
                 <div id="ContentPlaceHolder1_div_SevaShulk1" class="col-lg-3 portfolio-item SevaShulk1" style="position: absolute; left: 0px; top: 0px;">
                     <a href="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/SevaShulk1_180205.jpg" id="ContentPlaceHolder1_a_SevaShulk1" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link">
                         <img id="ContentPlaceHolder1_img_SevaShulk1" title="ASSK banner" class="img-fluid" alt="" src="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/SevaShulk1_180205.jpg" style="height:150px;width:300px;" />
@@ -356,10 +359,28 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
                 </div>
 
                 <div id="ContentPlaceHolder1_div_VikasKame2" class="col-lg-3 portfolio-item vikaskaame2" style="position: absolute; left: 285px; top: 0px;">
-                    <a href="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/VikasKaame2_180205.jpg" id="ContentPlaceHolder1_a_vikaskaame2" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link">
-                        <img id="ContentPlaceHolder1_img_vikaskaame2" title="sarvajanik shouchalay bandhkam" class="img-fluid" alt="" src="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/VikasKaame2_180205.jpg" style="height:150px;width:300px;" />
+                    <a href="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/VikasKaame2_180205.jpeg" id="ContentPlaceHolder1_a_vikaskaame2" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link">
+                        <img id="ContentPlaceHolder1_img_vikaskaame2" title="sarvajanik shouchalay bandhkam" class="img-fluid" alt="" src="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/VikasKaame2_180205.jpeg" style="height:150px;width:300px;" />
                     </a>
                 </div>
+                <div id="ContentPlaceHolder1_div_VikasKame2" class="col-lg-3 portfolio-item vikaskaame2" style="position: absolute; left: 285px; top: 0px;">
+                    <a href="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/VikasKaame2_180205_1.jpeg" id="ContentPlaceHolder1_a_vikaskaame2" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link">
+                        <img id="ContentPlaceHolder1_img_vikaskaame2" title="sarvajanik shouchalay bandhkam" class="img-fluid" alt="" src="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/VikasKaame2_180205_1.jpeg" style="height:150px;width:300px;" />
+                    </a>
+                </div>
+
+                <div id="ContentPlaceHolder1_div_building" class="col-lg-3 portfolio-item building" style="position: absolute; left: 285px; top: 0px;">
+                    <a href="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/building_1.jpeg" id="ContentPlaceHolder1_a_building" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link">
+                        <img id="ContentPlaceHolder1_img_building" title="sarvajanik shouchalay bandhkam" class="img-fluid" alt="" src="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/building_1.jpeg" style="height:150px;width:300px;" />
+                    </a>
+                </div>
+                <div id="ContentPlaceHolder1_div_building" class="col-lg-3 portfolio-item building" style="position: absolute; left: 285px; top: 0px;">
+                    <a href="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/building_2.jpeg" id="ContentPlaceHolder1_a_building" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link">
+                        <img id="ContentPlaceHolder1_img_building" title="sarvajanik shouchalay bandhkam" class="img-fluid" alt="" src="../../mh.gov2egov.com/PANINDIADOCS/GPSabhaPhoto/building_2.jpeg" style="height:150px;width:300px;" />
+                    </a>
+                </div>
+
+
             </div>
 
 
@@ -485,7 +506,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
 
         <div id="preloader"></div>
         <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-        <!--Scroll  vertically-->
+
         <script src="../js/jquery-3.2.1.min.html"></script>
         <script type="text/javascript">
             !function (r, a, p) {
@@ -505,7 +526,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
                 } r.fn[e] = function (t) { return this.each(function () { r.data(this, e) || r.data(this, e, new o(this, t)) }) }
             }(jQuery, window, document);// JavaScript Document</script>
         <script type="text/javascript" src="../js/jquery.easing.min.html"></script>
-        <!--Scroll  vertically Script-->
+
         <script>
             $(function () {
                 $('.demo1').easyTicker({
@@ -557,10 +578,9 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
 
             });
         </script>
-        <!---->
-        <!--Slide slick link logo-->
+
         <script src="../assets/js/slick-linklogo.js"></script>
-        <!-- Vendor JS Files -->
+
         <script src="../assets/vendor/aos/aos.js"></script>
         <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -569,9 +589,8 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
         <script src="../assets/vendor/purecounter/purecounter.js"></script>
         <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
         <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
-        <!--language Traslate-->
         <script src="../assets/js/language-swich.js"></script>
-        <!-- Template Main JS File -->
+
         <script src="../assets/js/main.js"></script>
     </form>
 
@@ -583,7 +602,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
 
         $(document).ready(function () {
 
-            //language switcher buttons 
+
             function triggerHtmlEvent(element, eventName) {
                 var event;
                 if (document.createEvent) {
@@ -596,44 +615,26 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
                     element.fireEvent('on' + event.eventType, event);
                 }
             }
-            //<!-- Flag click handler -->
+
             $('.translation-links a').click(function (e) {
                 e.preventDefault();
                 var lang = $(this).data('lang');
 
-                // alert(lang);
-                $('#google_translate_element select option').each(function () {
-                    //$('#google_translate_element').each(function () {
 
-                    //alert($(this).text().indexOf(lang));
+                $('#google_translate_element select option').each(function () {
+
                     if ($(this).text().indexOf(lang) > -1) {
 
                         $(this).parent().val($(this).val());
                         var container = document.getElementById('google_translate_element');
                         var select = container.getElementsByTagName('select')[0];
                         triggerHtmlEvent(select, 'change');
-                        //  alert("in");
 
 
                     }
-                    //else {
-                    //    alert("out");
-                    //}
+
                 });
             });
-
-            //$(".english").hide();
-            //$(".marathi").hide();
-            //$(".marathi").click(function () { $(".marathi").hide(); $(".english").show(); $(".hindi").show(); });
-
-            //$(".hindi").click(function () { $(".hindi").hide(); $(".english").show(); $(".marathi").show(); });
-
-            //$(".english").click(function () { $(".english").hide(); $(".hindi").show(); $(".marathi").show(); });
-
-            //$(".marathi").hide();
-            //$(".marathi").click(function () { $(".marathi").hide(); $(".english").show(); });
-
-            //$(".english").click(function () { $(".english").hide(); $(".marathi").show(); });
 
 
         });
@@ -642,6 +643,5 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager1', 'form1', [],
 
 </body>
 
-<!-- Mirrored from mahaegram.co.in/GeneralPages/PhotoGallery.aspx?&gpcode=180205&blockcode1=Kamptee&distname=Nagpur&gpname=Pawangaon by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jan 2025 20:40:19 GMT -->
 </html>
 
